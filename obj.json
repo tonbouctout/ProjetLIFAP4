@@ -1,0 +1,176 @@
+{
+    "0" : {
+
+        "0" : {
+            "id" : "0",
+            "name" : "Poke ball",
+            "description" : "La pokéball de base, utile pour attraper les pokémons de bas niveaux",
+            "nb" : "5",
+            "catchrate" : "1"
+        },
+
+        "1" : {
+            "id" : "1",
+            "name" : "super ball",
+            "description" : "La pokéball ameliorée, utile pour attraper les pokémons de niveaux moyen",
+            "nb" : "0",
+            "catchrate" : "1.5"
+        },
+        
+        "2" : {
+            "id" : "2",
+            "name" : "hyper ball",
+            "description" : "La pokéball net plus ultra, utile pour attraper les pokémons quel que soit le niveau",
+            "nb" : "0",
+            "catchrate" : "2"
+        }
+    },
+    "1" : {
+
+        "0" : {
+            "id" : "0",
+            "name" : "potion",
+            "description" : "Restore les PV perdu de votre pokemon en combat de 20 PV.",
+            "nb" : "0",
+            "heal" : "20"
+        },
+
+        "1" : {
+            "id" : "1",
+            "name" : "super potion",
+            "description" : "Restore les PV perdu de votre pokemon en combat de 50 PV.",
+            "nb" : "0",
+            "heal" : "50"
+        },
+        
+        "2" : {
+            "id" : "2",
+            "name" : "hyper potion",
+            "description" : "Restore les PV perdu de votre pokemon en combat de 200 PV.",
+            "nb" : "0",
+            "heal" : "200"
+        }
+    },
+    "2" : {
+
+        "0" : {
+            "id" : "0",
+            "name" : "griffe rasoir",
+            "description" : "objet tenu. il augmente le taux de critique du porteur",
+            "nb" : "0",
+            "holdable" : "true",
+            "caracteristique" : "taux crit",
+            "effect" : "10"
+        },
+
+        "1" : {
+            "id" : "1",
+            "name" : "pierrallege",
+            "description" : "objet tenu. il reduit le poid du pokemon",
+            "nb" : "0",
+            "holdable" : "true",
+            "caracteristique" : "masse",
+            "effect" : "-10"
+        },
+        
+        "2" : {
+            "id" : "2",
+            "name" : "poudreclaire",
+            "description" : "objet tenu. il baisse la precision de l'ennemie",
+            "nb" : "0",
+            "holdable" : "true",
+            "caracteristique" : "precision",
+            "effect" : "10"
+        }
+    },
+    "3" : {
+
+        "0" : {
+            "id" : "0",
+            "name" : "escalade",
+            "description" : "le pokemon se jette violament sur l'ennemi et peut le rendre confus",
+            "nb" : "0",
+            "power" : "90",
+            "pp" : "20",
+            "type" : "normal"
+        },
+
+        "1" : {
+            "id" : "1",
+            "name" : "poing-karaté",
+            "description" : "Le pokemon adverse est tranché violament",
+            "nb" : "0",
+            "power" : "50",
+            "pp" : "25",
+            "type" : "combat"
+        },
+        
+        "2" : {
+            "id" : "2",
+            "name" : "aeropique",
+            "description" : "le lanceur prend l'ennemie de vitesse et le lacere.",
+            "nb" : "0",
+            "power" : "60",
+            "pp" : "20",
+            "type" : "vol"
+        }
+    },
+    "4" : {
+
+        "0" : {
+            "id" : "0",
+            "name" : "baie mepo",
+            "description" : "Restaure 10 PP d'une attaque d'un pokemon",
+            "nb" : "0",
+            "holdable" : "true",
+            "caracteristique" : "pp",
+            "effect" : "10"
+        },
+
+        "1" : {
+            "id" : "1",
+            "name" : "baie oran",
+            "description" : "restaure 10 PV d'un pokemon lorsqu'elle tenu par celui-ci",
+            "nb" : "0",
+            "holdable" : "true",
+            "caracteristique" : "pv",
+            "effect" : "10"
+        },
+        
+        "2" : {
+            "id" : "2",
+            "name" : "baie rangma",
+            "description" : "objet tenu. elle augmente la defence du pokemon",
+            "nb" : "0",
+            "holdable" : "true",
+            "caracteristique" : "defence",
+            "effect" : "15"
+        }
+    },
+    "5" : {
+
+        "0" : {
+            "id" : "0",
+            "name" : "pepite",
+            "description" : "Peut etre vendu a bon prix chez les marchants",
+            "nb" : "0",
+            "value" : "1000"
+        },
+
+        "1" : {
+            "id" : "1",
+            "name" : "grande perle",
+            "description" : "Peut etre vendu a bon prix chez les marchants",
+            "nb" : "0",
+            "value" : "500"
+        },
+        
+        "2" : {
+            "id" : "2",
+            "name" : "vieux vase",
+            "description" : "objet qui peut etre vendue a un marchant a tres bon prix",
+            "nb" : "0",
+            "value" : "2000"
+        }
+    }
+}
