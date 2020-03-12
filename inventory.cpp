@@ -17,27 +17,27 @@ Inventory::~Inventory(){
 }
 
 void Inventory::setBalls(vector<Item> b){
-
+    balls = b;
 }
 
 void Inventory::setMedics(vector<Item> m){
-
+    medics = m;
 }
 
 void Inventory::setObject(vector<Item> o){
-
+    objects = o;
 }
 
 void Inventory::setCts(vector<Item> c){
-
+    cts = c;
 }
 
 void Inventory::setBerries(vector<Item> b){
-
+    berries = b;
 }
 
 void Inventory::setRareObjects(vector<Item> ro){
-
+    rareObjects = ro;
 }
 
 vector<Item> Inventory::getBalls(){

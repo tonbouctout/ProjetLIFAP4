@@ -17,7 +17,7 @@ struct Object {
 };
 
 struct Ct {
-        string spell;
+        string power;
         int pp;
         string type;
 };
@@ -45,11 +45,9 @@ class Item {
                 Ball* ball; // idCategorie 0
                 Medic* medic; // idCategorie 1
                 Object* object; // idCategorie 2 
-                Ct* cts; // idCategorie 3
+                Ct* ct; // idCategorie 3
                 Berry* berry; // idCategorie 4
                 RareObject* rareObject; // idCategorie 5 
-
-
         public:
 
                 Item(); 
@@ -61,10 +59,23 @@ class Item {
                 void setName(string nom);
                 void setDesciption(string texte);
                 void setNB(int nb);
+                void setBall(Ball* b);
+                void setMedic(Medic* m);
+                void setObject(Object* o);
+                void setCt(Ct* c);
+                void setBerry(Berry* b);
+                void setRareObject(RareObject* ro);
+
 
                 int getIdCategory();
                 int getIdItem();
                 string getName();
                 string getDescription();
                 int getNB();
+                Ball* getBall();
+                Medic* getMedic();
+                Object* getObject();
+                Ct* getCt();
+                Berry* getBerry();
+                RareObject* getRareObject();
 };
